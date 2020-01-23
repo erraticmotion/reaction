@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>MUnit.Framework</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MUnit.Framework</RootNamespace>
+    <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}</ProjectGuid>
+    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
+    <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="ArrangeActAssert.cs" />
+    <Compile Include="Assert.cs" />
+    <Compile Include="AssertAttribute.cs" />
+    <Compile Include="AssertException.cs" />
+    <Compile Include="FluentAssertions\IShouldByte.cs" />
+    <Compile Include="FluentAssertions\IShouldDateTime.cs" />
+    <Compile Include="FluentAssertions\IShouldInt64.cs" />
+    <Compile Include="FluentAssertions\ShouldByte.cs" />
+    <Compile Include="FluentAssertions\ShouldDateTime.cs" />
+    <Compile Include="FluentAssertions\ShouldInt64.cs" />
+    <Compile Include="FluentAssertions\ShouldString.cs" />
+    <Compile Include="FluentAssertions\IShouldBool.cs" />
+    <Compile Include="FluentAssertions\IShouldInt32.cs" />
+    <Compile Include="FluentAssertions\IShouldObject.cs" />
+    <Compile Include="FluentAssertions\IShouldString.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FluentAssertions\Should.cs" />
+    <Compile Include="FluentAssertions\ShouldBool.cs" />
+    <Compile Include="FluentAssertions\ShouldInt32.cs" />
+    <Compile Include="FluentAssertions\ShouldObject.cs" />
+    <Compile Include="TestAssemblyCompletedEventArgs.cs" />
+    <Compile Include="TestAssemblyCompletedEventHandler.cs" />
+    <Compile Include="TestAttribute.cs" />
+    <Compile Include="TestCompletedEventArgs.cs" />
+    <Compile Include="TestCompletedEventHandler.cs" />
+    <Compile Include="TestFixture.cs" />
+    <Compile Include="TestRun.cs" />
+    <Compile Include="TestRunController.cs" />
+    <Compile Include="TestFixtureAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SPOT.Native">
+    </Reference>
+    <Reference Include="Microsoft.SPOT.TinyCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ErraticMotion.NETMF.System.Runtime\ErraticMotion.NETMF.System.Runtime.csproj">
+      <Project>{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}</Project>
+      <Name>ErraticMotion.NETMF.System.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

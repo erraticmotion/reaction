@@ -1,0 +1,149 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{435880DE-502E-48D8-B4F0-BD22F0CA4EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5FA79192-8573-4328-8D82-2170A946EB0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{CC384380-0F99-48CB-AEB9-2697266A3AF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{18C2058E-EF26-46C2-ADF9-B8F93DB07002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43B870B1-0572-4AFA-B102-785EE57604CC}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.Reaction.Net", "ErraticMotion.Reaction.Net\ErraticMotion.Reaction.Net.csproj", "{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.NETMF.System", "ErraticMotion.NETMF.System\ErraticMotion.NETMF.System.csproj", "{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.Reaction.Net.Test", "ErraticMotion.Reaction.Net.Test\ErraticMotion.Reaction.Net.Test.csproj", "{36EF6C85-3D03-45DE-9242-840345BD6515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.NETMF.System.Usb", "ErraticMotion.NETMF.System.Usb\ErraticMotion.NETMF.System.Usb.csproj", "{48EF3546-C30A-4152-91A2-77ECD9CB270D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.Reaction.Emv.Types", "ErraticMotion.Reaction.Emv.Types\ErraticMotion.Reaction.Emv.Types.csproj", "{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUnit.Framework", "MUnit.Framework\MUnit.Framework.csproj", "{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.NETMF.System.Runtime", "ErraticMotion.NETMF.System.Runtime\ErraticMotion.NETMF.System.Runtime.csproj", "{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.Reaction.Emv.Types.Tests.Unit", "ErraticMotion.Reaction.Emv.Types.Tests.Unit\ErraticMotion.Reaction.Emv.Types.Tests.Unit.csproj", "{6AEF77E1-CE80-4F94-B708-402AAC48C07D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErraticMotion.NETMF.System.Tests.Unit", "ErraticMotion.NETMF.System.Tests.Unit\ErraticMotion.NETMF.System.Tests.Unit.csproj", "{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MUnit.Framework.TestRunner", "MUnit.Framework.TestRunner\MUnit.Framework.TestRunner.csproj", "{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://elevation:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ErraticMotion.Reaction.Net\\ErraticMotion.Reaction.Net.csproj
+		SccProjectTopLevelParentUniqueName1 = ErraticMotion.Reaction.sln
+		SccProjectName1 = ErraticMotion.Reaction.Net
+		SccLocalPath1 = ErraticMotion.Reaction.Net
+		SccProjectUniqueName2 = ErraticMotion.NETMF.System\\ErraticMotion.NETMF.System.csproj
+		SccProjectTopLevelParentUniqueName2 = ErraticMotion.Reaction.sln
+		SccProjectName2 = ErraticMotion.NETMF.System
+		SccLocalPath2 = ErraticMotion.NETMF.System
+		SccProjectUniqueName3 = ErraticMotion.Reaction.Net.Test\\ErraticMotion.Reaction.Net.Test.csproj
+		SccProjectTopLevelParentUniqueName3 = ErraticMotion.Reaction.sln
+		SccProjectName3 = ErraticMotion.Reaction.Net.Test
+		SccLocalPath3 = ErraticMotion.Reaction.Net.Test
+		SccProjectUniqueName4 = ErraticMotion.NETMF.System.Usb\\ErraticMotion.NETMF.System.Usb.csproj
+		SccProjectTopLevelParentUniqueName4 = ErraticMotion.Reaction.sln
+		SccProjectName4 = ErraticMotion.NETMF.System.Usb
+		SccLocalPath4 = ErraticMotion.NETMF.System.Usb
+		SccProjectUniqueName5 = ErraticMotion.Reaction.Emv.Types\\ErraticMotion.Reaction.Emv.Types.csproj
+		SccProjectTopLevelParentUniqueName5 = ErraticMotion.Reaction.sln
+		SccProjectName5 = ErraticMotion.Reaction.Emv.Types
+		SccLocalPath5 = ErraticMotion.Reaction.Emv.Types
+		SccProjectUniqueName6 = MUnit.Framework\\MUnit.Framework.csproj
+		SccProjectTopLevelParentUniqueName6 = ErraticMotion.Reaction.sln
+		SccProjectName6 = MUnit.Framework
+		SccLocalPath6 = MUnit.Framework
+		SccProjectUniqueName7 = ErraticMotion.NETMF.System.Runtime\\ErraticMotion.NETMF.System.Runtime.csproj
+		SccProjectTopLevelParentUniqueName7 = ErraticMotion.Reaction.sln
+		SccProjectName7 = ErraticMotion.NETMF.System.Runtime
+		SccLocalPath7 = ErraticMotion.NETMF.System.Runtime
+		SccProjectUniqueName8 = ErraticMotion.Reaction.Emv.Types.Tests.Unit\\ErraticMotion.Reaction.Emv.Types.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName8 = ErraticMotion.Reaction.sln
+		SccProjectName8 = ErraticMotion.Reaction.Emv.Types.Tests.Unit
+		SccLocalPath8 = ErraticMotion.Reaction.Emv.Types.Tests.Unit
+		SccProjectUniqueName9 = ErraticMotion.NETMF.System.Tests.Unit\\ErraticMotion.NETMF.System.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName9 = ErraticMotion.Reaction.sln
+		SccProjectName9 = ErraticMotion.NETMF.System.Tests.Unit
+		SccLocalPath9 = ErraticMotion.NETMF.System.Tests.Unit
+		SccProjectUniqueName10 = MUnit.Framework.TestRunner\\MUnit.Framework.TestRunner.csproj
+		SccProjectName10 = MUnit.Framework.TestRunner
+		SccLocalPath10 = MUnit.Framework.TestRunner
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EF6C85-3D03-45DE-9242-840345BD6515}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{48EF3546-C30A-4152-91A2-77ECD9CB270D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EF3546-C30A-4152-91A2-77ECD9CB270D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EF3546-C30A-4152-91A2-77ECD9CB270D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EF3546-C30A-4152-91A2-77ECD9CB270D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E4CD64-0195-49E7-ACB0-B0C30BF7815A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEF77E1-CE80-4F94-B708-402AAC48C07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEF77E1-CE80-4F94-B708-402AAC48C07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEF77E1-CE80-4F94-B708-402AAC48C07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEF77E1-CE80-4F94-B708-402AAC48C07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A23C3D-8648-4597-93AA-E8DC4A773CD9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE64DAF7-1C4B-4C6B-B11B-1B0DB3487BBD} = {435880DE-502E-48D8-B4F0-BD22F0CA4EF3}
+		{9D8F2113-C0F9-4B34-B4E0-BDF81EB14094} = {435880DE-502E-48D8-B4F0-BD22F0CA4EF3}
+		{48EF3546-C30A-4152-91A2-77ECD9CB270D} = {435880DE-502E-48D8-B4F0-BD22F0CA4EF3}
+		{1BC3B312-D8F7-4CFE-B084-C0F9FCA2D79B} = {435880DE-502E-48D8-B4F0-BD22F0CA4EF3}
+		{0E4B1843-0DF7-4A11-B521-DFFA5C2B762F} = {435880DE-502E-48D8-B4F0-BD22F0CA4EF3}
+		{CC384380-0F99-48CB-AEB9-2697266A3AF3} = {5FA79192-8573-4328-8D82-2170A946EB0D}
+		{18C2058E-EF26-46C2-ADF9-B8F93DB07002} = {5FA79192-8573-4328-8D82-2170A946EB0D}
+		{42E4CD64-0195-49E7-ACB0-B0C30BF7815A} = {5FA79192-8573-4328-8D82-2170A946EB0D}
+		{36EF6C85-3D03-45DE-9242-840345BD6515} = {CC384380-0F99-48CB-AEB9-2697266A3AF3}
+		{6AEF77E1-CE80-4F94-B708-402AAC48C07D} = {18C2058E-EF26-46C2-ADF9-B8F93DB07002}
+		{76B7DE8C-56B4-4BA3-AC7E-7AE364E10251} = {18C2058E-EF26-46C2-ADF9-B8F93DB07002}
+	EndGlobalSection
+EndGlobal
